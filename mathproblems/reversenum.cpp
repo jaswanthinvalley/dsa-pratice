@@ -8,7 +8,7 @@ void reversenum(int n) {
     int lastdigit = n % 10;
     revnum = (revnum * 10) + lastdigit;
     n = n / 10;
-    cout<<reversenum;
+    cout<<revnum;
     }
 }
 int main() {
